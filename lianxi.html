@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们（官方网址：http//www.amaiti.com/cn）</title>
+	<link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="Favicon.ico" type="image/gif" />
+	<link rel="stylesheet" href="css/lianxi.css">
+	<script src="js/functions.js"></script>
+	<script src="js/animate.js"></script>
+</head>
+<body>
+	
+<!-- 哈哈哈 开始 -->
+<div class="ding">
+	<img src="img/2016-07-22_154721.jpg" alt="">
+</div>
+<div class="dingdakuang">
+	<div class="dingdaohang">
+		<a href="index.html"><div class="dingdaohang1">首页</div></a>
+		<a href="gongsi.html"><div class="dingdaohang1">公司简介</div></a>
+		<a href="chanpin.html"><div class="dingdaohang1">产品展示</div></a>
+		<a href="jidi.html"><div class="dingdaohang1">基地展示</div></a>
+		<a href="xinwen.html"><div class="dingdaohang1">新闻动态</div></a>
+		<a href="zhaopin.html"><div class="dingdaohang1">在线招聘</div></a>
+		<a href="jiameng.html"><div class="dingdaohang1">招商加盟</div></a>
+		<a href="liuyan.html"><div class="dingdaohang1">在线留言</div></a>
+		<a href="lianxi.html"><div class="dingdaohang1">联系我们</div></a>
+		<a href="index.html" target="blank"><div class="dingdaohang1">网上商城</div></a>
+	</div>
+</div>
+<!-- 轮播 -->
+<div class="banner">
+	<img src="img/1.jpg" alt="">
+	<img src="img/2.jpg" alt="">
+	<img src="img/3.jpg" alt="">
+</div>
+<div class="tianbai"></div>
+
+
+
+<!-- 内容开始 -->
+<div class="zhongdakuang">
+	<div class="zhongneikuang">
+		<div class="zhongleft">
+			<img src="img/2016-07-24_132854.jpg" alt="" class="leftimg1">
+			<div class="leftdiv1">
+				<a href="lianxi.html"><div class="leftdiv2">联系我们</div></a>
+				<!-- <a href=""><div class="leftdiv3">提交简历</div></a> -->
+			</div>
+			<a href="lianxi.html"><img src="img/2016-07-24_134523.jpg" alt="" class="leftimg2"></a>
+			<a href="liuyan.html"><img src="img/2016-07-24_134619.jpg" alt="" class="leftimg3"></a>
+		</div>
+		<div class="zhongright">
+			<div class="rightdaohang">
+				<img src="img/2016-07-24_135500.jpg" alt="" class="rightimg1">
+				<div class="rightdiv1">联系我们</div>
+				<div class="rightdiv2"><a href="index.html">首页</a>&nbsp;&nbsp;&gt;&nbsp;联系我们</div>
+			</div>
+			<div class="rightbai"></div>
+			<img src="img/2016-07-25_214558.jpg" alt="" class="rightimg2">
+			<a href="index.html" target="blank">
+				<div class="gaizhu1"></div>
+			</a>
+			<a href="index.html" target="blank">
+				<div class="gaizhu2"></div>
+			</a>
+			<div class="gaitianbai"></div>
+			<div class="gaitianbai1"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 底部 -->
+<div class="dibudakuang">
+	<div class="dibuneikuang">
+		<img src="img/diw.jpg" alt="">
+		<div class="dibuneirong">版权所有：阳泉市北山经济开发区阿买提新疆特产食品有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人：朱经理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0359-2481509&nbsp;&nbsp;13546698741</div>
+		<div class="dibuneirong1">地址：阳泉市北山开发区后地沟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持：龙采科技（阳泉）有限公司---百度山西地区营销服务中心（阳泉百度推广）（阳泉百度建设）</div>
+		<div class="dibulianjie1"><a href="index.html" target="blank">阿买提特产网上商城官网</a></div>
+		<div class="dibulianjie2"><a href="http://www.baidu.com/" target="blank">晋ICD备01225号</a></div>
+		<img src="img/2016-07-23_153901.jpg" alt="" class="dibuimg1">
+		<img src="img/2016-07-23_153837.jpg" alt="" class="dibuimg2">
+	</div>
+</div>
+
+</body>
+</html>
+<script>
+	$(function(){
+  // banner轮播
+  var banner=$(".banner")[0];
+  var img=$("img",banner);
+  var num=0;
+  var t=setInterval(move,3000);
+
+  function move(){
+    num++;
+    if (num>img.length-1) {
+    	num=0
+    }
+  	for (var i = 0; i < img.length; i++) {
+  		   animate(img[i],{opacity:0},500)
+  	}
+    animate(img[num],{opacity:1},500)
+  }
+
+})
+</script>

@@ -1,0 +1,611 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style:none;
+	text-decoration: none;
+	font-family: 微软雅黑;
+}
+img{
+	border:none;
+}
+
+
+
+
+/*开始*/
+.ding{
+  width:1349px;
+  height:88px;
+  margin:0 auto;
+  overflow: hidden;
+  /*background: green;*/
+}
+.dingdakuang{
+	width:1349px;
+	height:46px;
+	background: #c4000c;
+	margin:0 auto;
+	border-bottom: 2px solid black;
+}
+.dingdaohang{
+    width:970px;
+    height:46px;
+    margin:0 auto;
+    margin-left: 175px;
+    /*background: green;*/
+}
+.dingdaohang1{
+	width:97px;
+	height:46px;
+	float:left;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+	line-height: 46px;
+	font-weight:bold;
+}
+.dingdaohang1:hover{
+	background:#a5010a;
+}
+/*轮播*/
+.banner{
+	width:1349px;
+	height:369px;
+	margin:0 auto;
+	position: relative;
+	overflow:hidden;
+}
+.banner img{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.tianbai{
+	width:auto;
+	height:20px;
+	margin: 0 auto;
+}
+
+
+/*内容开始*/
+.zhongdakuang{
+	width:auto;
+	height:513px;
+	margin:0 auto;
+	background: #ececec;
+}
+.zhongneikuang{
+	width:968px;
+	height:513px;
+	background: #ececec;
+	margin:0 auto;
+}
+.leftkuang{
+	width:230px;
+	height:506px;
+	border:1px solid #c3c3c3;
+	float:left;
+	position: relative;
+}
+.leftimg1{
+	/*position: absolute;
+	left:-5.5px;
+	top:0;*/
+	margin-left: -4.5px;
+}
+.leftimg2{
+	margin-left:9px; 
+}
+.leftziti{
+	width:212px;
+	height:52px;
+	font-size: 12px;
+	text-indent: 4em;
+	margin-left: 9px;
+}
+.zao2{
+	color:red;
+}
+.leftimg3{
+	margin-left: 9px;
+}
+.leftdiwu{
+	width:212px;
+	height:7px;
+	border-bottom: 1px solid #c3c3c3;
+	margin-left: 9px;
+}
+.leftimg4{
+	margin-left: 9px;
+	margin-top: 9px;
+}
+
+
+.rightkuang{
+	width:736px;
+	height:513px;
+	float:left;
+	background: #ececec;
+}
+.rightxiaokuang1{
+	width:466px;
+	height:242px;
+	border:1px solid #c3c3c3;
+	background: white;
+	border-radius:5%;
+	margin-left: 12px;
+	position: relative;
+	float:left;
+}
+.rightimg1{
+	margin-left: -1px;
+	
+}
+.rightimgdianji{
+   width:50px;
+   height:20px;
+   /*background: red;*/
+   position: absolute;
+   right:7px;
+   top:20px;
+}
+.dongtaikuang{
+	width:433px;
+	height:175px;
+	background:white;
+	margin-left: 16px;
+}
+.dongtaikuang a{
+	color:black;
+}
+.dongtaineirong{
+	width:433px;
+	height:28px;
+	border-bottom: 1px dashed black;
+	font-size: 12px;
+	line-height: 28px;
+	position: relative;
+	text-indent: 1em;
+}
+.fangkuai{
+	/*height:28px;*/
+	color:orange;
+	position: absolute;
+	top:-3px;
+	left:-9px;
+}
+.rightimg2{
+	margin-left: -17px;
+}
+
+
+.rightxiaokuang2{
+	width:251px;
+	height:259px;
+	border:1px solid #d3d3d3;
+	border-radius:5%;
+	margin-left: 3px;
+	position: relative;
+	float:left;
+}
+.rightimg3{
+	margin-left: -1px;
+}
+.rightziti{
+	width:240px;
+	height:60px;
+	font-size: 12px;
+	text-indent: 2em;
+	margin:0 auto;
+}
+.rightimg4{
+	margin-left: 5px;
+}
+.rightimg5{
+	margin-left: 0px;
+	margin-top: 11px;
+}
+.rightimg6{
+	position: absolute;
+	bottom:-4px;
+	right:0;
+}
+.rightxiaokuang3{
+	width:400px;
+	height:21px;
+	/*background: red;*/
+	float:left;
+	margin-left: 12px;
+}
+.right3biaoti1{
+	width:80px;
+	height:21px;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	color:#bf050d;
+	float:left;
+}
+.right3biaoti2{
+	width:2px;
+	height:14px;
+	background: #bf050d;
+	float:left;
+	margin-top: 3px;
+}
+.right3biaoti3{
+	width:90px;
+	height:21px;
+	/*border-right:2px solid #bf050d;*/
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	/*background: red;*/
+	color:#bf050d;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*节点轮播*/
+.rightxiaokuang4{
+	width:722px;
+	height:224px;
+	border:1px solid #c3c3c3;
+	border-radius:10px;
+	float:left;
+	margin-left: 13px;
+	position: relative;
+}/*这个父元素定位是给左右两边的按钮定的*/
+
+.rightbaonei{
+	/*margin-left: 5px;*/
+	width:722px;
+	height:224px;
+	/*background: red;*/
+	overflow: hidden;
+	position: relative;
+}
+/*这个父元素是给里面的图片定的*/
+.right4neikuang{
+	width:2818.5px;
+	height:194px;
+	/*background: green;*/
+	position: absolute;
+	bottom:10px;
+	left:0;
+}
+.right4neikuang a{
+	/*margin-left: 29px;*/
+	/*width:229px;
+	height:194px;*/
+	/*background: red;*/
+}
+.right4neikuang img{
+	margin-left: 30.5px;
+	/*z-index: 100;*/
+}
+
+.btn{
+	width:722px;
+	height:30px;
+	position: absolute;
+	left:0;
+	top:42%;
+	/*z-index: 50;*/
+	/*background: red;*/
+}
+.btnl{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background: #b40100;
+    position: absolute;
+    left:-12px;
+    top:27%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btnr{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background: #b40100;
+	position: absolute;
+    right:-14px;
+    top:27%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+/*底部*/
+.dibudakuang{
+	width:100%;
+	height:157px;
+	background: #ececec;
+	margin:0 auto;
+	overflow: hidden;
+}
+.dibuneikuang{
+	width:1000px;
+	height:127px;
+	margin:0 auto;
+	position: relative;
+}
+.dibuneirong{
+	width:700px;
+	height:20px;
+	/*background: green;*/
+	position: absolute;
+	left:130px;
+	top:35px;
+	font-size: 12px;
+	color:white;
+}
+.dibuneirong1{
+	width:750px;
+	height:20px;
+	/*background: blue;*/
+	position: absolute;
+	left:130px;
+	top:55px;
+	font-size: 12px;
+	color:white;
+}
+.dibulianjie1{
+	width:150px;
+	height:20px;
+	/*background: blue;*/
+	font-size: 12px;
+	position: absolute;
+	left:170px;
+	bottom:5px;
+}
+.dibulianjie2{
+	width:100px;
+	height:20px;
+	/*background: green;*/
+	font-size: 12px;
+	position: absolute;
+	left:350px;
+	bottom:5px;
+}
+.dibulianjie1 a{
+    color:#1e4495;
+}
+.dibulianjie2 a{
+    color:#1e4495;
+}
+.dibuimg1{
+	position: absolute;
+	left:600px;
+	bottom:0;
+}
+.dibuimg2{
+	position: absolute;
+	right:20px;
+	top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

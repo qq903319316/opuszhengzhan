@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style:none;
+	text-decoration: none;
+	font-family: 微软雅黑;
+}
+img{
+	border:none;
+}
+
+
+
+
+/*开始*/
+.ding{
+  width:1349px;
+  height:88px;
+  margin:0 auto;
+  overflow: hidden;
+  /*background: green;*/
+}
+.dingdakuang{
+	width:1349px;
+	height:46px;
+	background: #c4000c;
+	margin:0 auto;
+	border-bottom: 2px solid black;
+}
+.dingdaohang{
+    width:970px;
+    height:46px;
+    margin:0 auto;
+    margin-left: 175px;
+    /*background: green;*/
+}
+.dingdaohang1{
+	width:97px;
+	height:46px;
+	float:left;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+	line-height: 46px;
+	font-weight:bold;
+}
+.dingdaohang1:hover{
+	background:#a5010a;
+}
+/*轮播*/
+.banner{
+	width:1349px;
+	height:369px;
+	margin:0 auto;
+	position: relative;
+	overflow:hidden;
+}
+.banner img{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.tianbai{
+	width:auto;
+	height:20px;
+	background: white;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*内容开始*/
+.zhongdakuang{
+	width:auto;
+	height:508px;
+	margin:0 auto;
+	/*background: red;*/
+}
+.zhongneikuang{
+	width:984px;
+	height:508px;
+	margin:0 auto;
+	position: relative;
+}
+.zhongleft{
+	width:230px;
+	height:508px;
+    border:1px solid #ccc; 
+    float:left;
+}
+.leftimg1{
+	margin-left: -4px;
+}
+.leftdiv1{
+	width:216px;
+	height:32px;
+	background: #f3f3f1;
+	margin-left: 7px;
+	margin-top: -4px;
+}
+.leftdiv2{
+	width:216px;
+	height:31px;
+	font-size: 15px;
+	font-weight:bold;
+	text-align: center;
+	line-height: 31px;
+	border-bottom: 1px solid #ccc;
+}
+.leftdiv1 a{
+	color:black;
+}
+.leftdiv2:hover{
+    background: #a00002;
+    color:white;
+}
+
+
+.leftimg2{
+	margin-top: 15px;
+	margin-left: 9px;
+}
+.leftimg4{
+	width:210px;
+	height:1px;
+	background: #ccc;
+	margin-top: 10px;
+	margin-left: 9px;
+}
+.leftimg3{
+	margin-top: 15px;
+	margin-left: 9px;
+}
+
+
+
+
+/*右*/
+.zhongright{
+	width:735px;
+	height:100%;
+	margin-left: 17px;
+	/*background: red;*/
+	float:left;
+	position: relative;
+}
+.rightdaohang{
+	width:735px;
+	height:33px;
+	border-bottom: 1px dashed #000;
+}
+.rightimg1{
+	float:left;
+}
+.rightdiv1{
+	width:100px;
+	height:33px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 33px;
+	float:left;
+}
+.rightdiv2{
+	width:120px;
+	height:33px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 33px;
+	float:right;
+}
+.rightdiv2 a{
+	color:black;
+}
+.rightbai{
+	width:735px;
+	height:20px;
+	/*background: green;*/
+}
+.rbt{
+	width:735px;
+	height:60px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	color:red;
+	font-weight: bold;
+}
+.rhx{
+	width:735px;
+	height:1px;
+	background: black;
+}
+.rimg1{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.rk{
+	width:735px;
+	height:40px;
+	/*background: red;*/
+	color:black;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.rk a{
+	color:black;
+}
+.rshang{
+	width:735px;
+	height:20px;
+	line-height: 20px;
+}
+.rxia{
+	width:735px;
+	height:20px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+/*底部*/
+.dibudakuang{
+	width:auto;
+	height:157px;
+	background: #e7e8ec;
+	margin:0 auto;
+	margin-top: 355px;
+	/*position: absolute;
+	left:0;
+	top:1100px;*/
+}
+.dibuneikuang{
+	width:1000px;
+	height:127px;
+	margin:0 auto;
+	margin-left: 180px;
+	margin-top: 10px;
+	position: relative;
+}
+.dibuneirong{
+	width:700px;
+	height:20px;
+	/*background: green;*/
+	position: absolute;
+	left:130px;
+	top:35px;
+	font-size: 12px;
+	color:white;
+}
+.dibuneirong1{
+	width:750px;
+	height:20px;
+	/*background: blue;*/
+	position: absolute;
+	left:130px;
+	top:55px;
+	font-size: 12px;
+	color:white;
+}
+.dibulianjie1{
+	width:150px;
+	height:20px;
+	/*background: blue;*/
+	font-size: 12px;
+	position: absolute;
+	left:170px;
+	bottom:5px;
+}
+.dibulianjie2{
+	width:100px;
+	height:20px;
+	/*background: green;*/
+	font-size: 12px;
+	position: absolute;
+	left:350px;
+	bottom:5px;
+}
+.dibulianjie1 a{
+    color:#1e4495;
+}
+.dibulianjie2 a{
+    color:#1e4495;
+}
+.dibuimg1{
+	position: absolute;
+	left:600px;
+	bottom:0;
+}
+.dibuimg2{
+	position: absolute;
+	right:20px;
+	top:30px;
+}
+
+
+
+
+

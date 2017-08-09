@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻动态（官方网址：http//www.amaiti.com/cn）</title>
+	<link rel="stylesheet" href="css/xinwen10.css">
+	<script src="js/functions.js"></script>
+	<script src="js/animate.js"></script>
+</head>
+<body style="background:#e7e8ec">
+	
+<!-- 哈哈哈 开始 -->
+<div class="ding">
+	<img src="img/2016-07-22_154721.jpg" alt="">
+</div>
+<div class="dingdakuang">
+	<div class="dingdaohang">
+		<a href="index.html"><div class="dingdaohang1">首页</div></a>
+		<a href="gongsi.html"><div class="dingdaohang1">公司简介</div></a>
+		<a href="chanpin.html"><div class="dingdaohang1">产品展示</div></a>
+		<a href="jidi.html"><div class="dingdaohang1">基地展示</div></a>
+		<a href="xinwen.html"><div class="dingdaohang1">新闻动态</div></a>
+		<a href="zhaopin.html"><div class="dingdaohang1">在线招聘</div></a>
+		<a href="jiameng.html"><div class="dingdaohang1">招商加盟</div></a>
+		<a href="liuyan.html"><div class="dingdaohang1">在线留言</div></a>
+		<a href="lianxi.html"><div class="dingdaohang1">联系我们</div></a>
+		<a href="index.html" target="blank"><div class="dingdaohang1">网上商城</div></a>
+	</div>
+</div>
+<!-- 轮播 -->
+<div class="banner">
+	<img src="img/1.jpg" alt="">
+	<img src="img/2.jpg" alt="">
+	<img src="img/3.jpg" alt="">
+</div>
+<div class="tianbai"></div>
+
+
+<!-- 内容开始 -->
+<div class="zhongdakuang">
+	<div class="zhongneikuang">
+		<div class="zhongleft">
+			<img src="img/2016-07-24_132854.jpg" alt="" class="leftimg1">
+			<div class="leftdiv1">
+				<a href="xinwen.html"><div class="leftdiv2">新闻动态</div></a>
+			</div>
+			<a href="lianxi.html"><img src="img/2016-07-22_213211.jpg"alt="" class="leftimg2"></a>
+			<div class="leftimg4"></div>
+			<a href="liuyan.html"><img src="img/2016-07-22_214011.jpg" alt="" class="leftimg3"></a>
+		</div>
+		<div class="zhongright">
+			<div class="rightdaohang">
+				<img src="img/2016-07-24_135500.jpg" alt="" class="rightimg1">
+				<div class="rightdiv1">新闻动态</div>
+				<div class="rightdiv2"><a href="index.html">首页</a>&nbsp;&nbsp;&gt;&nbsp;新闻动态</div>
+			</div>
+			<div class="rightbai"></div>
+			<div class="rbt">阿买提香槟枣开始预定了！</div>
+			<div class="rhx"></div>
+            <img src="img/2016-07-30_155513.jpg" alt="" class="rimg1">
+            <div class="rk">
+            	<a href="xinwen9.html"><div class="rshang">上一条：热烈祝贺我公司参加运城市中小企业金融资本市场论谈 </div></a>
+            	<a href="xinwen1.html"><div class="rxia">下一条：阿梅提为全真教会提供后勤服务</div></a>
+            </div>
+	    </div>
+	</div>
+</div>
+
+
+
+<!-- 底部 -->
+<div class="dibudakuang">
+	<div class="dibuneikuang">
+		<img src="img/diw.jpg" alt="">
+		<div class="dibuneirong">版权所有：阳泉市北山经济开发区阿买提新疆特产食品有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人：朱经理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0359-2481509&nbsp;&nbsp;13546698741</div>
+		<div class="dibuneirong1">地址：阳泉市北山开发区后地沟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持：龙采科技（阳泉）有限公司---百度山西地区营销服务中心（阳泉百度推广）（阳泉百度建设）</div>
+		<div class="dibulianjie1"><a href="index.html" target="blank">阿买提特产网上商城官网</a></div>
+		<div class="dibulianjie2"><a href="http://www.ik123.com/" target="blank">晋ICD备01225号</a></div>
+		<img src="img/2016-07-23_153901.jpg" alt="" class="dibuimg1">
+		<img src="img/2016-07-23_153837.jpg" alt="" class="dibuimg2">
+	</div>
+</div>
+
+
+
+
+
+</body>
+</html>
+<script>
+$(function(){
+  // banner轮播
+  var banner=$(".banner")[0];
+  var img=$("img",banner);
+  var num=0;
+  var t=setInterval(move,3000);
+
+  function move(){
+    num++;
+    if (num>img.length-1) {
+    	num=0
+    }
+  	for (var i = 0; i < img.length; i++) {
+  		   animate(img[i],{opacity:0},500)
+  	}
+    animate(img[num],{opacity:1},500)
+  }
+
+
+
+// 选项卡
+var diyi=$(".dianjidiyi")[0];
+var shang=$(".dianjishang")[0];
+var xia=$(".dianjixia")[0];
+var zuihou=$(".dianjizuihou")[0];
+var shuzi=$(".shuzi");
+var xinwenxiang=$(".xinwenxiang");
+// alert(xinwenxiang.length)
+var bianliang;
+
+for (var i = 0; i < shuzi.length; i++) {
+	shuzi[i].index=i;
+	shuzi[i].onclick=function(){
+		bianliang=this.index;
+		for (var j = 0; j < xinwenxiang.length; j++) {
+			// xinwenxiang[j].style.display="none"
+			xinwenxiang[j].style.display="none";
+		}
+		// xinwenxiang[this.index].style.display="block"
+		xinwenxiang[bianliang].style.display="block"
+	}
+
+	diyi.onclick=function(){
+		xinwenxiang[bianliang].style.display="none"
+		xinwenxiang[0].style.display="block"
+		// xinwenxiang[i].style.display="none"
+	}
+	zuihou.onclick=function(){
+		xinwenxiang[bianliang].style.display="none"
+		xinwenxiang[4].style.display="block"
+		// xinwenxiang[i].style.display="none"
+	}
+
+	xia.onclick=function(){
+		num++;
+		if (num>xinwenxiang.length-1) {
+			num=0
+		};
+		for (var j = 0; j< xinwenxiang.length; j++) {
+			xinwenxiang[j].style.display="none"
+		}
+		xinwenxiang[num].style.display="block"
+	}
+	
+	// 没做完
+	shang.onclick=function(){
+		var nu=4;
+		nu--;
+		if (nu<xinwenxiang.length-1) {
+			nu=xinwenxiang.length-1
+		};
+		for (var j = 0; j< xinwenxiang.length; j++) {
+			xinwenxiang[j].style.display="none"
+		}
+		xinwenxiang[num].style.display="block"
+	}
+
+}	
+
+
+
+
+
+})
+</script>
